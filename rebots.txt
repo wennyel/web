@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /template/request
+Disallow: /template/request/p
+Disallow: /template/resources
+Disallow: /web_conexao
+Disallow: /css
+Disallow: /js
+noindex: /template/cron
+noindex: /template/request/p
+noindex: /template/resources
+noindex: /web_conexao
+noindex: /css
+noindex: /js
+
+User-agent: Googlebot-Image
+Allow: /*
+Disallow:
+
+Sitemap: https://cabalicore.com.br/sitemap.xml
